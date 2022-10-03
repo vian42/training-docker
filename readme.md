@@ -10,13 +10,13 @@ Un environnement linux de préférence, je n'ai réalisé cet exercice que sur u
 - vim
 - openssh-client
 - python3-pip
-- ansible (via `pip install ansible`)
+- docker
+- docker compose
 
 ## Atelier:
 
 Récupérer les projets suivants
 
-- Ansible Docker : https://github.com/khantzen/ansible-docker-install
 - Quote picker api: https://github.com/khantzen/training-docker-backend
 - Quote picker front: ou https://github.com/khantzen/training-docker-front-end
 
@@ -30,7 +30,7 @@ Récupérer les projets suivants
 
 #### Installation de docker
 
-- Installer docker en suivant ces étapes https://docs.docker.com/get-docker/ ou en suivant les instructions du projes "Ansible Docker Install"
+- https://www.linuxfordevices.com/tutorials/linux/install-docker-on-arch
 - Lancer un conteneur hello-world `docker run hello-world`
 
 #### Build les applications

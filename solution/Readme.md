@@ -113,7 +113,7 @@ sudo echo "127.0.0.1    quote-picker.local" >> /etc/hosts
 - Redémarrer nginx
 
 ```shell
-sudo ln -s /path/to/server.local.nginx /etc/nginx-sites-enabled/quote-picker.nginx
+sudo ln -s /path/to/server.local.nginx /etc/nginx/sites-enabled/quote-picker.conf
 sudo systemctl restart nginx
 ```
 Dans votre navigateur rendez vous sur http://quote-picker.local
